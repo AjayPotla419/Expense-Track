@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(120deg, #f8f9fa, #e6f0ff);
+  font-family: 'Comfortaa', 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  border-bottom: 1px solid #cfe2ff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#logoutBtn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+  font-weight: 500;
+}
+
+#expenseForm input,
+#expenseForm select {
+  border-radius: 8px;
+  padding: 0.6rem;
+}
+
+#submitBtn {
+  background-color: #0d6efd;
+  font-weight: 500;
+  border: none;
+  transition: 0.3s ease;
+}
+
+#submitBtn:hover {
+  background-color: #0b5ed7;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.table th {
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+.table tr td button {
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.card-body h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.card-body h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .card-body h4 {
+    font-size: 1.3rem;
+  }
+
+  .card-body h5 {
+    font-size: 1rem;
+  }
+}
